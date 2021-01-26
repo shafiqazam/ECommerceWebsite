@@ -1,0 +1,12 @@
+/*Header*/
+.release-header {
+    text-align: center;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.row > div {
+    margin: 2% auto;
+}

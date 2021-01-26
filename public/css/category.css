@@ -1,0 +1,17 @@
+body > div {
+    margin: 3% auto;
+}
+
+.category-header {
+    text-align: center;
+}
+
+/*Cards of item*/
+.row {
+    justify-content: space-around;
+}
+
+.row > div {
+    margin: 2% auto;
+}
+

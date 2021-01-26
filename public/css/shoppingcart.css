@@ -1,0 +1,43 @@
+.shopping-header {
+    text-align: center;
+
+}
+
+/*Shopping body*/
+.shopping-body {
+    margin: 5% 3%;
+}
+
+.shopping-body img {
+    height: 30%;
+    width: 30%;
+}
+
+.shopping-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shopping-details {
+    text-align: center;
+}
+
+.shopping-details > p {
+    margin-bottom: 0;
+}
+
+/*Desktop Version*/
+
+@media (min-width: 600px) {
+    .shopping-body img {
+        height: 20%;
+        width: 20%;
+    }
+    .shopping-body {
+        margin: 2% 3%;
+    }
+    .shopping-details > p {
+        margin-bottom: 1em;
+    }
+}

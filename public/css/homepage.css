@@ -1,0 +1,91 @@
+/*Main category*/
+
+body > div {
+    margin: 3% auto;
+}
+
+.main-dir {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.dropdown button {
+    background-color:  var(--contrast);
+    color: black;
+    border: none;
+}
+
+/*Category directory*/
+.category-dir {
+    font-size: 1em;
+}
+
+/*carousel*/
+.carousel-main {
+    padding: 0 10%;
+}
+
+/*popular tags*/
+.tags-main {
+    background-color: var(--second);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+}
+
+.tags-main a {
+    color: black;
+}
+
+
+/*desc*/
+
+.description img {
+    object-fit: cover;
+    height: 30%;
+    width: 30%;
+    margin: auto 2%;
+}
+
+.description p {
+    font-size: 0.75em;
+}
+
+.description-1 {
+    background-color: var(--contrast);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.description-2 {
+    background-color: var(--second);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 2%;
+}
+
+/*Socials*/
+.socials-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Desktop version*/
+
+@media (min-width: 600px) {
+    .category-dir {
+        font-size: 1.5em;
+    }
+
+    .description p {
+        font-size: 2em;
+    }
+
+    .tags-main > button {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,102 @@
+.profile-header {
+    text-align: center;
+}
+
+/*Input fields*/
+
+.inp-fields {
+    margin: 3% auto;
+}
+
+input {
+    width: 100%;
+}
+
+.inp-header {
+    text-align: center;
+}
+
+.inp-fields > .inp-item {
+    margin: 2% auto;
+}
+
+.inp-item.row {
+    align-items: center;
+}
+
+.inp-header {
+    font-size: 0.75em;
+}
+
+/*Buttons section*/
+
+.profile-buttons {
+    margin: 3% 0;
+    padding: 3% 0;
+    background-color: var(--second);
+}
+
+
+
+.profile-buttons button {
+    width: 80%;
+    margin: 1%;
+}
+
+.profile-buttons > .row > div {
+    text-align: center;
+}
+
+.row > div > .btn {
+    font-size: 0.5em;
+}
+
+/*Password Modal*/
+#passwordModal form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#passwordModal label {
+    font-size: 0.5em;
+}
+
+#passwordModal input {
+    font-size: 0.5em;
+    margin: 2% auto;
+}
+
+.modal-header > *{
+    font-size: 0.75em;
+}
+
+password-form-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Desktop version*/
+@media (min-width: 600px) {
+    .inp-item label {
+        font-size: 1em;
+    }
+    .inp-header {
+        font-size: 1em;
+    }
+    .row > div > .btn {
+        font-size: 1em;
+    }
+    #passwordModal label {
+        font-size: 1em;
+    }
+
+    #passwordModal input {
+        font-size: 1em;
+    }
+
+    .modal-header > *{
+        font-size: 1em;
+    }
+}
